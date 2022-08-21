@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: #191c32;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4em;
+}
+
+.brand {
+  margin-top: 2px;
+}
+
+.brand h3 {
+  color: rgb(24, 243, 243);
+  padding-left: 45px;
+}
+
+.brand h5 {
+  color: white;
+  padding-left: 30px;
+  font-size: 10px;
+  margin-left: 75px;
+}
+
+.brand h5 span {
+  color: aqua;
+}
+
+.brand span {
+  color: aqua;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.menu .active {
+  color: aqua;
+}
+
+.menu a:hover {
+  background-color: aqua;
+  color: #191c32;
+  transition: ease-in .4s;
+}
+
+.main {
+  color: white;
+  padding: 10px 40px;
+  width: 80vw;
+  height: 80vh;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.main span {
+  color: aqua;
+}
+
+main img {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 50px;
+  opacity: .4;
+  filter: blur(px);
+}
+
+.info-presentation h4 {
+  margin-left: 450px;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.about {
+  width: 100vw;
+  height: 100vh;
+  padding: 10em;
+}
+
+.about-info h2 {
+  font-size: 3em;
+  color: #191c32;
+}
+
+.about-info p {
+  font-size: 2em;
+  margin-top: 25px;
+}
+
+.habilidades h2 {
+  margin-top: 100px;
+}
+
+.divider {
+  height: 4px;
+  width: 100px;
+  background-color: aqua;
+  margin-top: 5px;
+  margin-bottom: 65px;
+}
+
+.icons i {
+  font-size: 120px;
+  display: inline-block;
+  padding-left: 2.5em;
+}
+
+.fa-html5{
+  color: rgb(255, 81, 0);
+}
+
+.fa-css3-alt{
+  color: rgba(0, 0, 255, 0.932);
+}
+
+.fa-js{
+  color:rgb(255, 217, 0);
+}
+
+.contacto {
+  width: 100vw;
+  height: 100vh;
+  padding: 10em;
+  background-color: #191c32;
+  color: white;
+}
+
+.container-contact {
+  padding: 3em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-contact img {
+  width: 400px;
+  height: 400px;
+  left: 50px;
+  opacity: .4;
+  filter: blur(0.2px);
+}
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input {
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background: none;
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+
+.form textarea {
+  height: 150px;
+  background: none;
+  color: white;
+  padding: 1.5em;
+  border: 1px solid white;
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+}
